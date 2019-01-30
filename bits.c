@@ -274,7 +274,7 @@ int dl14(int x, int y) {
 	int e=~c;
 	int f=~d;
 	int g=e & f;
-	return 2;
+	return g;
 }
 /* 
  *
