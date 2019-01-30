@@ -265,8 +265,15 @@ int dl13(int x) {
  *   Rating: 1
  */
 int dl14(int x, int y) {
-  	int a= 
-	
+  	/*  use the definition of xor as not when both are equals to 1 or both equal to zero
+	then use the previously defined function for "or" applied to this   */
+	int a= ~x;
+	int b = ~y;
+	int c =x & y;
+	int d = a & b;
+	int e=~c;
+	int f=~d;
+	int g=e & f;
 	return 2;
 }
 /* 
